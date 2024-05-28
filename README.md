@@ -1,6 +1,6 @@
 # UnicodeAutoDecoder
 
-自动将抓包、重放、爆破中的Unicode编码准换为易于阅读的自然语言编码(UTF-8)  
+自动将抓包、重放、爆破中的Unicode编码转换为易于阅读的自然语言编码(UTF-8)  
 Auto converts Unicode encodings in Proxy, Repeater, and Intruder into easy-to-read natural language
 
 参考以下两个项目进行创建  
