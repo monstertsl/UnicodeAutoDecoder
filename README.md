@@ -1,16 +1,12 @@
 # UnicodeAutoDecoder
 
-自动将抓包、重放、爆破中的Unicode编码准换为易于阅读的自然语言编码(UTF-8)
-
+自动将抓包、重放、爆破中的Unicode编码准换为易于阅读的自然语言编码(UTF-8)  
 Auto converts Unicode encodings in Proxy, Repeater, and Intruder into easy-to-read natural language
 
-参考以下两个项目进行创建
-
-Refer to the following two authors create project
-
-https://github.com/amir-h-fallahi/UnicodeDecoder
-
-https://github.com/no001ce/N-DecodeAllUnicode
+参考以下两个项目进行创建  
+Refer to the following two authors create project  
+https://github.com/amir-h-fallahi/UnicodeDecoder  
+https://github.com/no001ce/N-DecodeAllUnicode  
 
 因为一开始我使用的是[UnicodeDecoder](https://github.com/amir-h-fallahi/UnicodeDecoder),后面发现他会导致在重放和爆破的时候对请求/响应中的中文进行编码，导致无法正常阅读，所以在[UnicodeDecoder](https://github.com/amir-h-fallahi/UnicodeDecoder)的基础上，参照[N-DecodeAllUnicode](https://github.com/no001ce/N-DecodeAllUnicode)进行修改
 
