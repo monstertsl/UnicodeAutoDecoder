@@ -17,3 +17,8 @@ BurpSuite - Extensions(扩展) - Extensions settings(扩展设置) - Python envi
 ## 载入插件
 BurpSuite - Extensions(扩展) - Installed（安装） - Burp extensions（Burp扩展） - Add（添加） - Extension type（扩展类型） - Python - Extension file - Select file（选择文件）
 选择下载好的[UnicodeAutoDecoder](https://github.com/monstertsl/UnicodeAutoDecoder)
+
+
+#测试URL
+https://aiqicha.baidu.com/index/getCPlaceAjax
+https://passport.baidu.com/v2/api/getqrcode
