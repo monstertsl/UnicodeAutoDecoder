@@ -35,7 +35,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
 					body = response[analyzedResponse.getBodyOffset():]
 					bodyStr = body.tostring()
 					u_escape = re.findall(r'\\u[a-z0-9A-Z]{4}', bodyStr)
-					u_escape = list(set(u_escape))
+					#u_escape = list(set(u_escape))
 					if u_escape:
 						for i in u_escape:
 							decodeUnicodes = i.decode('unicode_escape').encode('utf8')
